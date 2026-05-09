@@ -111,11 +111,11 @@ export const SkillsSection = () => {
                     ))}
                 </div>
 
-                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8">
+                <div className="grid grid-cols-3 sm:grid-cols-5 lg:grid-cols-10 gap-5">
                     {filteredSkills.map((skill, key) => (
                         <div
                             key={key}
-                            className="bg-card p-6 rounded-xl shadow-xs flex flex-col items-center justify-center gap-3 card-hover hover:scale-105 transition-transform duration-300"
+                            className="bg-card p-2 rounded-xl shadow-xs flex flex-col items-center justify-center gap-3 card-hover hover:scale-105 transition-transform duration-300"
                         >
                             <img
                                 src={skill.logo}

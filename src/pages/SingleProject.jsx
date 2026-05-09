@@ -67,10 +67,11 @@ const projects = [
     ],
 
     frontendGithubUrl:
-      "https://github.com/yourusername/salon-frontend",
+      "https://github.com/NisalSandaru/salon-micoservice-frontend",
 
     backendGithubUrl:
-      "https://github.com/yourusername/salon-microservices",
+      
+      "https://github.com/NisalSandaru/salon__microservices",
 
     liveUrl: "",
 
@@ -84,6 +85,7 @@ const projects = [
       "Salon owner dashboard and service management",
       "Admin management panel",
       "Secure authentication and authorization using Keycloak and JWT",
+      "payment management system",
       "RabbitMQ asynchronous notifications",
       "Real-time notifications using WebSockets",
       "Inter-service communication using OpenFeign clients",
@@ -127,7 +129,7 @@ const projects = [
 
         image: customerDashboardImg,
 
-        video: "",
+        video: salonVideo,
       },
 
       {
